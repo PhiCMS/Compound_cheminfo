@@ -234,8 +234,7 @@ def common_substructure(smile_list, thresh, timeout=60, compare_first=True):
 
 if __name__ == '__main__':
     # Importing data
-    filepath = '/Users/mbpro/Desktop/CMS Master/Master Thesis/Clean_Project_Code/Data' \
-               '/significant_p_valued_data_ecdf_O60885_BD1.csv'
+    filepath = ''
     data = pd.read_csv(filepath)
 
     # Drop repeats of same compound in dataset
